@@ -1,0 +1,84 @@
+* Wed Jun 22 2011 Chris Ferron <chris.e.ferron@linux.intel.com> - 0.48
+- removed util-linux-ng as it has been replaced by util-linux.
+
+* Tue May 17 2011 Auke Kok <auke-jan.h.kok@intel.com> - 0.48
+- Remove required dependency on sendmail - not everyone will use this,
+  and it should not gate installation of meego-packaging-tools.
+
+* Sat Feb 07 2009 Anas Nashif <anas.nashif@intel.com> 0.48
+- Update to 0.48
+
+* Thu Aug 21 2008 - jwboyer@gmail.com 0.47-1
+- Update to latest release
+
+* Tue Feb 19 2008 Fedora Release Engineering <rel-eng@fedoraproject.org> - 0.46-5
+- Autorebuild for GCC 4.3
+
+* Fri Sep 28 2007 - jwboyer@jdub.homelinux.org 0.46-4
+- BR util-linux-ng for getopt
+
+* Tue Aug 21 2007 - jwboyer@jdub.homelinux.org 0.46-3
+- BR gawk
+
+* Fri Aug 03 2007 - jwboyer@jdub.homelinux.org 0.46-2
+- Update license field
+
+* Fri Oct 20 2006 - jwboyer@jdub.homelinux.org 0.46-1
+- Update to latest release
+
+* Sun Aug 27 2006 - jwboyer@jdub.homelinux.org 0.45-2
+- Bump and rebuild for FE6
+
+* Mon Apr 24 2006 - jwboyer@jdub.homelinux.org 0.45-1
+- Update to latest release
+
+* Wed Feb 15 2006 - jwboyer@jdub.homelinux.org 0.44-1
+- Update to latest release
+
+* Thu Feb 2 2006 - jwboyer@jdub.homelinux.org 0.43-1
+- Update to latest upstream
+- Drop fix-debuginfo patch (upstream)
+
+* Fri Oct 28 2005 - jwboyer@jdub.homelinux.org 0.42-2
+- fix debuginfo package (bug 171917)
+
+* Fri Jul 29 2005 - jwboyer@jdub.homelinux.org 0.42-1
+- Update to latest upstream
+
+* Mon Jun 6 2005 - jwboyer@jdub.homelinux.org 0.40-3
+- Remove hardcoded dist tags
+- Bump release
+
+* Wed May 4 2005 - jwboyer@jdub.homelinux.org 0.40-2
+- Bump release to fix dist tag usage
+
+* Tue May 3 2005 - jwboyer@jdub.homelinux.org 0.40-1
+- Update to 0.40
+- Remove fix-man-page.patch as it's now upstream
+- Fix release numbering for multiple distro version
+
+* Fri Apr 22 2005 - jwboyer@jdub.homelinux.org 0.39-7
+- Bump release to be higher than FC-3 branch
+
+* Thu Apr 21 2005 - jwboyer@jdub.homelinux.org 0.39-5
+- Add rpm-build requires back for setup function.  rpm-build needs patch and
+  perl, so remove explict requires.
+
+* Tue Apr 5 2005 - jwboyer@jdub.homelinux.org 0.39-4
+- Remove some Requires.  coreutils needs grep and findutils. rpm-build isn't
+  really needed.  gzip needs mktemp.
+- Remove the Authors from the description to make it more Fedora like.
+- Get rid of old character set warning in man page
+
+* Sun Apr 3 2005 - jwboyer@jdub.homelinux.org 0.39-3
+- Add dependency on perl for the graph, mail, and setup functions
+
+* Fri Apr 1 2005 Toshio Kuratomi <toshio-tiki-lounge.com> 0.39-2
+- Full URL for Source.
+- Changed some of the entries in the %%files section to own more directories,
+  add more docs, and mark config files as config.
+- Add some BuildRequires, configure switches and Requires so various quilt
+  commandline options work.
+
+* Thu Mar 31 2005 - jwboyer@jdub.homelinux.org
+- Adapt quilt spec file to Fedora Extras conventions
