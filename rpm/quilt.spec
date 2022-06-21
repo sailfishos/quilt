@@ -2,7 +2,6 @@ Name:       quilt
 Summary:    Scripts for working with series of patches
 Version:    0.64
 Release:    1
-Group:      Development/Tools
 License:    GPLv2+
 URL:        https://github.com/sailfishos/recode
 Source0:    %{name}-%{version}.tar.gz
