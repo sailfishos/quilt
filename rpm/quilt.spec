@@ -4,8 +4,8 @@ Version:    0.64
 Release:    1
 Group:      Development/Tools
 License:    GPLv2+
-URL:        http://savannah.nongnu.org/projects/quilt
-Source0:    http://savannah.nongnu.org/download/quilt/quilt-%{version}.tar.gz
+URL:        https://github.com/sailfishos/recode
+Source0:    %{name}-%{version}.tar.gz
 Requires:   coreutils
 Requires:   diffutils
 Requires:   gzip
